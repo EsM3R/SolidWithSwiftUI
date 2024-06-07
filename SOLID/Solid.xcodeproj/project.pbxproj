@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28EC05C42BDE795B0090575B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC05C32BDE795B0090575B /* main.swift */; };
+		288E55832C1253E6007745E8 /* SolidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E55822C1253E6007745E8 /* SolidApp.swift */; };
+		288E55852C1253E6007745E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288E55842C1253E6007745E8 /* ContentView.swift */; };
+		288E55872C1253E8007745E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E55862C1253E8007745E8 /* Assets.xcassets */; };
+		288E558A2C1253E8007745E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288E55892C1253E8007745E8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		28EC05BE2BDE795B0090575B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		28EC05C02BDE795B0090575B /* SOLID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLID; sourceTree = BUILT_PRODUCTS_DIR; };
-		28EC05C32BDE795B0090575B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		288E557F2C1253E6007745E8 /* Solid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288E55822C1253E6007745E8 /* SolidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidApp.swift; sourceTree = "<group>"; };
+		288E55842C1253E6007745E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		288E55862C1253E8007745E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288E55892C1253E8007745E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28EC05BD2BDE795B0090575B /* Frameworks */ = {
+		288E557C2C1253E6007745E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28EC05B72BDE795B0090575B = {
+		288E55762C1253E6007745E8 = {
 			isa = PBXGroup;
 			children = (
-				28EC05C22BDE795B0090575B /* SOLID */,
-				28EC05C12BDE795B0090575B /* Products */,
+				288E55812C1253E6007745E8 /* Solid */,
+				288E55802C1253E6007745E8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28EC05C12BDE795B0090575B /* Products */ = {
+		288E55802C1253E6007745E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28EC05C02BDE795B0090575B /* SOLID */,
+				288E557F2C1253E6007745E8 /* Solid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28EC05C22BDE795B0090575B /* SOLID */ = {
+		288E55812C1253E6007745E8 /* Solid */ = {
 			isa = PBXGroup;
 			children = (
-				28EC05C32BDE795B0090575B /* main.swift */,
+				288E55822C1253E6007745E8 /* SolidApp.swift */,
+				288E55842C1253E6007745E8 /* ContentView.swift */,
+				288E55862C1253E8007745E8 /* Assets.xcassets */,
+				288E55882C1253E8007745E8 /* Preview Content */,
 			);
-			path = SOLID;
+			path = Solid;
+			sourceTree = "<group>";
+		};
+		288E55882C1253E8007745E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				288E55892C1253E8007745E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28EC05BF2BDE795B0090575B /* SOLID */ = {
+		288E557E2C1253E6007745E8 /* Solid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28EC05C72BDE795B0090575B /* Build configuration list for PBXNativeTarget "SOLID" */;
+			buildConfigurationList = 288E558D2C1253E8007745E8 /* Build configuration list for PBXNativeTarget "Solid" */;
 			buildPhases = (
-				28EC05BC2BDE795B0090575B /* Sources */,
-				28EC05BD2BDE795B0090575B /* Frameworks */,
-				28EC05BE2BDE795B0090575B /* CopyFiles */,
+				288E557B2C1253E6007745E8 /* Sources */,
+				288E557C2C1253E6007745E8 /* Frameworks */,
+				288E557D2C1253E6007745E8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SOLID;
-			productName = SOLID;
-			productReference = 28EC05C02BDE795B0090575B /* SOLID */;
-			productType = "com.apple.product-type.tool";
+			name = Solid;
+			productName = Solid;
+			productReference = 288E557F2C1253E6007745E8 /* Solid.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28EC05B82BDE795B0090575B /* Project object */ = {
+		288E55772C1253E6007745E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					28EC05BF2BDE795B0090575B = {
+					288E557E2C1253E6007745E8 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 28EC05BB2BDE795B0090575B /* Build configuration list for PBXProject "SOLID" */;
+			buildConfigurationList = 288E557A2C1253E6007745E8 /* Build configuration list for PBXProject "Solid" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 28EC05B72BDE795B0090575B;
-			productRefGroup = 28EC05C12BDE795B0090575B /* Products */;
+			mainGroup = 288E55762C1253E6007745E8;
+			productRefGroup = 288E55802C1253E6007745E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28EC05BF2BDE795B0090575B /* SOLID */,
+				288E557E2C1253E6007745E8 /* Solid */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		288E557D2C1253E6007745E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288E558A2C1253E8007745E8 /* Preview Assets.xcassets in Resources */,
+				288E55872C1253E8007745E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		28EC05BC2BDE795B0090575B /* Sources */ = {
+		288E557B2C1253E6007745E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28EC05C42BDE795B0090575B /* main.swift in Sources */,
+				288E55852C1253E6007745E8 /* ContentView.swift in Sources */,
+				288E55832C1253E6007745E8 /* SolidApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		28EC05C52BDE795B0090575B /* Debug */ = {
+		288E558B2C1253E8007745E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,18 +197,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		28EC05C62BDE795B0090575B /* Release */ = {
+		288E558C2C1253E8007745E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,59 +254,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		28EC05C82BDE795B0090575B /* Debug */ = {
+		288E558E2C1253E8007745E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solid/Preview Content\"";
 				DEVELOPMENT_TEAM = 56JF3858ZD;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetvural.Solid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		28EC05C92BDE795B0090575B /* Release */ = {
+		288E558F2C1253E8007745E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solid/Preview Content\"";
 				DEVELOPMENT_TEAM = 56JF3858ZD;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetvural.Solid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28EC05BB2BDE795B0090575B /* Build configuration list for PBXProject "SOLID" */ = {
+		288E557A2C1253E6007745E8 /* Build configuration list for PBXProject "Solid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28EC05C52BDE795B0090575B /* Debug */,
-				28EC05C62BDE795B0090575B /* Release */,
+				288E558B2C1253E8007745E8 /* Debug */,
+				288E558C2C1253E8007745E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28EC05C72BDE795B0090575B /* Build configuration list for PBXNativeTarget "SOLID" */ = {
+		288E558D2C1253E8007745E8 /* Build configuration list for PBXNativeTarget "Solid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28EC05C82BDE795B0090575B /* Debug */,
-				28EC05C92BDE795B0090575B /* Release */,
+				288E558E2C1253E8007745E8 /* Debug */,
+				288E558F2C1253E8007745E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 28EC05B82BDE795B0090575B /* Project object */;
+	rootObject = 288E55772C1253E6007745E8 /* Project object */;
 }
